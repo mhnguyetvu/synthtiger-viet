@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs
+*.log
+
+# Environment
+.env
+.venv/
+env/
+venv/
+openocr_env/
+openocr/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoint
+.ipynb_checkpoints/
+
+# Data
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+ic15_data/
+vietocr_data/
+datasets/
+output/
+weights/
+pretrained/
+models/*.pth
+*.onnx
+
+# Training artifacts
+*.ckpt
+*.pth
+*.pt
+*.log
+runs/
